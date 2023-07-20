@@ -1,0 +1,150 @@
+
+body{
+background-color: #ddd7d7;
+}
+.navbar {
+    height: 45px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c0b9b99a;
+    z-index: 1;
+}
+.nav a{
+    margin-left: -50px;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+} 
+
+
+.navlink li {
+    margin-left: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+.navlink a {
+    color: #0c2a30;
+    
+}
+
+.navbar img{
+    margin-top: -15px;
+}
+
+.navbar ul li {
+    transition: transform .9s ease;
+}
+.navbar ul li:hover{
+    transform:scale(1.2);
+}   
+
+
+.h1hw2{
+    color: rgb(216, 167, 8);
+    font-size: 25px;
+    text-align: center;
+}
+
+.LL{
+    color: red;
+    text-decoration: none;  
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+
+.p1{
+    font-size: 20px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(252, 0, 0);
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.p2{
+    font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         background-color: aqua;
+}
+
+.p3{
+    font-size: 15px;
+        background-color: blueviolet;color: rgb(238, 255, 0);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p4{
+    font-size: 18px;
+        color: rgb(190, 187, 0); background-color: rgb(8, 129, 44);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p5{
+    font-size:larger;
+        color: rgb(201, 2, 2);
+        background-color: rgb(255, 153, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Table section */
+
+table{
+    width: 100%; 
+    text-align: center;
+    table-layout: fixed ; width: 100%;}
+
+table, th, td {
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;}
+
+table th{
+    background-color: #6ff019;
+    padding: 10px;}
+
+table td{
+    padding: 7px;}
+
+.ttable{
+    font-size: 30px;}
+
+table tr:hover{
+    background-color: #6ff0199d;}
+
+td:hover {background-color: rgb(39, 235, 32);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: ridge;}
+/* End */
+
+.cs a{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    padding: 25px;
+    margin-top: 50px;
+    border: 3px solid #070c01;
+    border-radius: 20px;
+    background-color: #c46363;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-family:  BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.cs a:hover{
+    background-color: #2f3013;
+    color: #fff;
+}
